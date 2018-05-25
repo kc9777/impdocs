@@ -1,0 +1,32 @@
+chef commands:
+=====
+ $ chef-apply deploy.rb
+
+
+knife commands :
+============
+ $ knife bootstrap --ssh-user chandu --ssh-password chandu --sudo --use-sudo-password --node-name chandu --run-list recipe  [learn_chef_apache2]
+ 
+ $ knife cookbook create nginx {or} chef generate cookbook nginx
+ $ knife cookbook upload nginx
+
+ $ knife role from file roles/web.json
+ $ knife role list
+ $ knife role show web
+
+ $ knife node run-list set chandu "role[web]"      #set run list to load
+ $ knife ssl check
+ $ knife cookbook list
+ $ knife node list
+
+chef-client
+====
+ $ chef-client -version
+ $ chef --version
+ $ chef-client
+
+metadata.rb
+=====
+ default.rb ==> $ include -recipe 'apt'
+ metadata ==> depends 'apt'
+

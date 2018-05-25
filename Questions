@@ -1,0 +1,11 @@
+Ques
+
+1.ENV variables
+	export JAVA_HOME=/home/kc9777/Distros/jdk1.8.0_172
+	export M2_HOME=/home/kc9777/Distros/apache-maven-3.5.3
+	export PATH=$JAVA_HOME/bin:$M2_HOME/bin:$PATH
+ 
+2.Password for jenkins at first time
+	/home/kc9777/.jenkins/secrets/initialAdminPassword
+
+3.
