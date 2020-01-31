@@ -6,6 +6,4 @@ Ques
 	export PATH=$JAVA_HOME/bin:$M2_HOME/bin:$PATH
  
 2.Password for jenkins at first time
-	/home/kc9777/.jenkins/secrets/initialAdminPassword
-
-3.
+	/var/lib/jenkins/secrets/initialAdminPassword
